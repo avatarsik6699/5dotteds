@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 40%;
+    height: 40%;
+    box-sizing: border-box;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.testTable {
+    width: 15%;
+    text-align: center;
+}
+
+.gamer1 {
+    background: red;
+}
+
+.gamer2 {
+    background: green;
+}
+
+.gamer3 {
+    background: purple;
+}
+
+.winner {
+    border: 1px solid red;
+}
